@@ -39,3 +39,57 @@ const $h4_2 = $('<h4>');
 $h4_2.text('13" Kingwood wand with an alligator scale core');
 $body.append($h4_2);
 
+
+
+
+
+//Third Year
+const $ul = $('<ul>');
+$body.append($ul);
+
+const $li = $('<li>');
+
+$li.text('butter beer')
+$ul.append($li);
+
+
+const $li_2 = $('<li>');
+$li_2.text('invisibility cloak')
+$li_2.addClass('secret');
+$ul.append($li_2);
+
+
+const $li_3 = $('<li>');
+$li_3.text('magic map')
+$li_3.addClass('secret');
+$ul.append($li_3);
+
+const $li_4 = $('<li>');
+$li_4.text('time turner')
+$li_4.addClass('secret');
+$ul.append($li_4);
+
+
+const $li_5 = $('<li>');
+$li_5.text('leash')
+$li_5.addClass('owl');
+$ul.append($li_5);
+
+
+const $li_6 = $('<li>');
+$li_6.text("Bertie Bott's Every Flavor [Jelly] Beans")
+$ul.append($li_6);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
