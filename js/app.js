@@ -141,12 +141,42 @@ $tr5.append($('<td>').text('Care of Magical Creatures'));
 $('h4')[1].remove();
 $('li')[0].remove();
 $('ul').before('<h4>14" Elder Wood wand with a dragon tooth core</h4>');
-console.log($('h4')[1]);
-//$('h4')[1].css('color', 'indigo');
+const $h4Selection = $( $('h4')[1] );
+$h4Selection.css('color', 'indigo');
 
 
-//console.log($('h4').filter($('.owl')));
-$('h4').filter($('.owl')).remove();
+$h4.appendTo($ul);
+$h4.remove();
+$h3.after($h4)
+// $h4.appendTo($h4_2);
+
+
+
+
+
+
+
+
+
+//Sixth Year
+// $('.secret').hide('slow').delay(2500);
+// $('.secret').show('slow');
+// // console.log($('li').find($('owl')));
+// $('li')[0].addClass('cabbage');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
