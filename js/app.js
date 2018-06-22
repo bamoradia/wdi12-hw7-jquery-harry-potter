@@ -148,9 +148,6 @@ $h4Selection.css('color', 'indigo');
 $h4.appendTo($ul);
 $h4.remove();
 $h3.after($h4)
-// $h4.appendTo($h4_2);
-
-
 
 
 
@@ -159,10 +156,13 @@ $h3.after($h4)
 
 
 //Sixth Year
-// $('.secret').hide('slow').delay(2500);
-// $('.secret').show('slow');
-// // console.log($('li').find($('owl')));
-// $('li')[0].addClass('cabbage');
+$('.secret').hide('slow').delay(2500);
+$('.secret').show('slow');
+// console.log($('li').find($('owl')));
+$($('li')[3]).addClass('cabbage');
+$('.cabbage').css('color', 'chartreuse');
+$($('li')[3]).removeClass('cabbage');
+
 
 
 
