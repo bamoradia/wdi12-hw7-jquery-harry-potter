@@ -45,6 +45,7 @@ $body.append($h4_2);
 
 //Third Year
 const $ul = $('<ul>');
+$ul.attr('storage', 'trunk')
 $body.append($ul);
 
 const $li = $('<li>');
@@ -82,13 +83,56 @@ $ul.append($li_6);
 
 
 
+//Year 4
+const $h5 = $('<h5>');
+$h5.text('Spring 2017')
+$body.append($h5);
+
+const $table = $('<table>');
+$body.append($table);
+const $thead = $('<thead>');
+$table.append($thead);
+
+$thead.append($('<th>').text('Day'));
+$thead.append($('<th>').text('Classes'));
+
+const $tr = $('<tr>');
+
+$table.append($tr);
+// console.log(document.getElementsByTagName('th'))
+$tr.append($('<td>').text('Monday'));
+$tr.append($('<td>').text('Herbology'));
+$tr.append($('<td>').text('Divination'));
 
 
+const $tr2 = $('<tr>');
+
+$table.append($tr2);
+$tr2.append($('<td>').text('Tuesday'));
+$tr2.append($('<td>').text('History of Magic'));
+$tr2.append($('<td>').text('Charms'));
 
 
+const $tr3 = $('<tr>');
 
+$table.append($tr3);
+$tr3.append($('<td>').text('Wednesday'));
+$tr3.append($('<td>').text('Defense Against the Dark Arts'));
+$tr3.append($('<td>').text('Quidditch Practice'));
 
+const $tr4 = $('<tr>');
 
+$table.append($tr4);
+$tr4.append($('<td>').text('Thursday'));
+$tr4.append($('<td>').text('Potions'));
+$tr4.append($('<td>').text('Transfiguration'));
+
+const $tr5 = $('<tr>');
+
+$table.append($tr5);
+$tr5.append($('<td>').text('Friday'));
+$tr5.append($('<td>').text('Broom Practice'));
+$tr5.append($('<td>').text('Care of Magical Creatures'));
 
 
 
