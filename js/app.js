@@ -136,4 +136,19 @@ $tr5.append($('<td>').text('Care of Magical Creatures'));
 
 
 
+//Fifth Year
+
+$('h4')[1].remove();
+$('li')[0].remove();
+$('ul').before('<h4>14" Elder Wood wand with a dragon tooth core</h4>');
+console.log($('h4')[1]);
+//$('h4')[1].css('color', 'indigo');
+
+
+//console.log($('h4').filter($('.owl')));
+$('h4').filter($('.owl')).remove();
+
+
+
+
 
